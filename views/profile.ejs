@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %>></title>
+</head>
+<body>
+    <%- include ("header.ejs") %>
+
+    <h1>Welcome to <%= title %></h1>
+    <h1>Name : <%= userData?.name %></h1>
+    <h1>Age : <%= userData?.age %></h1>
+    <h1>City : <%= userData?.city %></h1>
+
+    <%- include ("footer.ejs") %>
+</body> 
+</html>
